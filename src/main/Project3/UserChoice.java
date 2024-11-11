@@ -15,8 +15,14 @@ import java.util.ArrayList;
 public class UserChoice {
 
     private static final ParseArticles visitor = new ParseArticles();
+
+    // simple or newsapi
     private String format;
+
+    // file or link
     private String source;
+
+    // name of file or link endpoint
     private String sourceNameOrLink;
 
     /**
